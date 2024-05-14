@@ -1,0 +1,11 @@
+<form action="">
+    <label for="palindrome">Check if this word is a palindrome:</label>
+    <input 
+      type="text" 
+      name="word" 
+      [(ngModel)]="word"
+      />
+    <button (click)="check()">Check</button>
+
+    <div class="result" [style.color]=" result === 'Please enter a word.' ? 'red' : 'black'">{{result}}</div>
+</form>

@@ -1,0 +1,30 @@
+form {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 2rem 5rem 2rem;
+    width: 50%;
+    margin: 1rem auto;
+    gap: 1rem;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    width: 50%;
+    background-color: rgb(217, 212, 212);
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 0, 183);
+    color: rgb(248, 244, 244);
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+  }
